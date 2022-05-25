@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    a {
+      color: white;
+    }
+    /* h1{
+      color: black;
+    }
+    p{
+      color: black;
+    } */
+    body {
+      background-color: #2C394B;
+    }
+  }
+
+  @layer utilities {
+  .text-gradient {
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+  }
+}
